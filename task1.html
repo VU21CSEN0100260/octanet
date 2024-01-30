@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWorks Inc.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 50px 0;
+        }
+
+        #hero {
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .feature {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .feature img {
+            width: 300px;
+            height: 300px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>TechWorks Inc.</h1>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to TechWorks Inc.</h2>
+            <p>We provide innovative solutions for all your tech needs.</p>
+            <a href="#contact" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <img src="tech1.jpg" alt="Feature 1">
+                    <h3>Feature 1: Cloud Storage</h3>
+                    <p>Store and access your files securely from anywhere with our cloud storage solution.</p>
+                </div>
+                <div class="feature">
+                    <img src="tech2.jpg" alt="Feature 2">
+                    <h3>Feature 2: Data Analytics</h3>
+                    <p>Gather insights and make data-driven decisions with our advanced analytics tools.</p>
+                </div>
+                <div class="feature">
+                    <img src="tech3.webp" alt="Feature 3">
+                    <h3>Feature 3: Customer Support</h3>
+                    <p>Receive exceptional customer support 24/7 from our dedicated team.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>TechWorks Inc. is a leading provider of innovative tech solutions. We specialize in creating software and hardware products that enhance productivity and streamline processes for businesses of all sizes.</p>
+            <p>Our team of experienced engineers and designers is dedicated to delivering high-quality products tailored to meet the unique needs of each client.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 TechWorks Inc. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
